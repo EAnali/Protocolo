@@ -1,0 +1,185 @@
+%% Correcciones y sugerencias por William Gutiérrez
+%% para no perder la costumbre :-)
+%% Debe incluir al Dr. Sergio López, asesor principal
+\documentclass[12pt,letterpaper,titlepage]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{latexsym}
+\usepackage{cancel}
+\usepackage{mathrsfs,amsfonts,mathptmx}
+\usepackage[text={5.8in,8.6in},centering]{geometry}
+\renewcommand{\spanishoperators}{sen spec d}
+\renewcommand{\baselinestretch}{1.6}
+\makeatletter \decimalpoint
+  \def\th@exercise{%
+    \normalfont % body font
+    \thm@headpunct{:}%
+  }
+
+\makeatother
+\usepackage{hyperref}
+\hypersetup{% bookmarksnumbered,
+  bookmarksopen,
+  pdfpagelayout=OneColumn,
+  pdfview=FitH,
+  pdfstartview=FitH,
+  pdfborder={0 0 0}}
+
+
+
+
+% \theoremstyle{definition}
+\renewcommand{\spanishrefname}{Bibliografía preliminar}
+
+\title{Protocolo de trabajo de graduación:\\
+Teoría de Juegos}
+\author{Br. Emilene Analí Romero Marroquín\\Carné: 2012-13113\\Dirección: 7a. Ave. "A" 9-29 Zona 11,\\Mixco, Guatemala\\Teléfono: 3335\,4941\\Asesores: Lic. Hugo Allan García Monterrosa\\Licenciatura en Matemática Aplicada\\Universidad de San Carlos de Guatemala\\Número de páginas: \pageref{fin}}
+\date{Guatemala, \today}
+
+\begin{document}
+%\begin{titlepage}
+%\renewcommand{\thepage}{}
+%\pagestyle{empty}
+\maketitle
+%\end{titlepage}\newpage
+\setcounter{page}{2}
+\tableofcontents
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+
+\section{Introducción}
+
+% Para los pies de página, las definiciones deben ser coloquiales para no ser tan técnicos en la introducción.
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+
+\section{Justificación}
+
+
+% \footnote{Hay redundancia en esta parte, buscar otros palabras.}
+
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+
+\section{Marco teórico}
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+
+\section{Objetivos}
+
+
+\subsection{Objetivo general}
+
+
+\subsection{Objetivos específicos}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+
+\section{Metodología}
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+
+\section{Cronograma}
+Se tabula las actividades previstas en el desarrollo del trabajo de graduación.
+% El cronograma es un cuadro semejante al utilizado en los anteproyectos FACYT,
+% meses en las etiquetas de las columnas y actividades con etiquetas de las filas, 
+% se sombrea (marca) la celda correspondiente.
+
+\vspace{1cm}
+
+\begin{tabular}{|c|c|c|}
+  \hline
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+   \textbf{No.}  &  \textbf{Actividad a realizar} &  \textbf{Duración }\\ \hline
+  1  & Curso de propedéutico de trabajos de graduación & Concluido \\
+  2  & Elaboración del protocolo & Concluido \\
+  3  & Sección: Antecedentes & 1 semana \\
+  4  & Sección: Grupo-anillos & 2 semanas \\
+  5  & Sección: Teoría de representación de grupos & 2 semanas \\
+  6  & Sección: Unidades de los grupo-anillos & 2 semanas \\
+  7  & Sección: Aplicaciones & 1 semana \\
+  8  & Escritura de informe final & 1 semana \\
+  9  & Revisión del asesor de tesis & 1 semana \\
+  10 & Revisión del revisor de Escuela de Ciencias & 1-2 semanas \\
+  11 & Revisión departamento de Lingüística & 1-2 semanas \\
+  12 & Trámites finales & 1 semana  \\
+  13 & Impresión informe final & 2-3 días \\
+  14 & Solicitud Examen Público & 1 semana \\
+  \hline
+\end{tabular}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+
+\section{Índice preliminar}
+El índice preliminar del trabajo de graduación es el siguiente
+\begin{align*}
+&\text{ÍNDICE DE ILUSTRACIONES}\\
+&\text{LISTADO DE SÍMBOLOS}\\
+&\text{GLOSARIO}\\
+&\text{INTRODUCCIÓN}\\
+&\text{1. CONCEPTOS PRELIMINARES}\\
+&\qquad\text{1.1 ANTECEDENTES}\\
+&\qquad\text{1.2 TEORÍA DE GRUPOS}\\
+&\qquad\text{1.3 ANILLOS, MODULOS Y ALGEBRAS}\\
+&\text{2. GRUPO-ANILLOS}\\
+&\qquad\text{2.1 HECHOS BÁSICOS DE LOS GRUPO-ANILLOS}\\
+&\qquad\text{2.2 SEMISIMPLICIDAD}\\
+&\qquad\text{2.3 ÁLGEBRAS DE GRUPOS ABELIANOS}\\
+&\text{3. TEORÍA DE REPRESENTACIÓN DE GRUPOS }\\
+&\qquad\text{3.1 DEFINICION Y EJEMPLOS}\\
+&\qquad\text{3.2 REPRESENTACIONES Y MODULOS}\\
+&\text{4. UNIDADES DE LOS GRUPO-ANILLOS }\\
+&\qquad\text{4.1 UNIDADES TRIVIALES}\\
+\end{align*}
+
+\newpage
+\begin{align*}
+&\qquad\text{4.2 GRUPOS FINITOS}\\
+&\text{5. APLICACIONES DE LOS GRUPO-ANILLOS }\\
+&\text{CONCLUSIONES}\\
+&\text{RECOMENDACIONES}\\ % piden esta onda
+&\text{REFERENCIAS}\\ % publicaciones que se citan dentro del trabajo
+&\text{BIBLIOGRAFÍA} % publicaciones que no se citaron pero sirvieron para la elaboración del trabajo
+\end{align*}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\newpage
+
+%\section{Bibliografía preliminar}
+\begin{thebibliography}{99}
+	\addcontentsline{toc}{section}{Bibliografía preliminar}
+% Nombres completos o iniciales / mayúsculas o minúsculas jojo jo
+% faltan datos en algunas referencias, casa editorial por ejemplo
+\bibitem{b1} C. Polcino Milies y K. Sehgal. \textbf{An Introduction to Group Rings.} EUA: Kluwer Academic Publishers (2002).
+\bibitem{b2} Hernstein, I.N. \textbf{Topics in Algebra.} EUA: John Wiley and Sons (1966).
+\bibitem{b3} Lang, Serge. \textbf{Linear Algebra.} (Undergraduate Texts in Mathematics) EUA: Springer (1966).
+\bibitem{b4} McLane, S. \textbf{Categories for a working Mathematician.} 2"a ed. (Graduate Texts in Mathematics 5) EUA: Springer (1998).
+\bibitem{b5} Beachy, John. \textbf{Introductory Lectures on Rings and Modules.} Reino Unido: Cambridge University Press edition (1999).
+\bibitem{b6} Agoston, Max. \textbf{Algebraic topology: a first course.} EUA: Dekker, Marcel Inc. (1976)
+\bibitem{b7} D.S. Passman. \textbf{The algebraic Structure of Group Rings.} EUA: Wiley-In"-terscience (1977).
+\bibitem{b8} T. Molien. \textbf{Über die Invarianten der linearen Substituionsgruppen}, S'ber Akad. d. Wiss. Berlin (1897), 1152-1156.
+\bibitem{b9} B. Hurley and T. Hurley. \textbf{Group ring cryptography}, \texttt{	arXiv:1104.1724v1 [math.GR] } (2011) .
+\bibitem{b10} E. Noether. \textbf{Hyperconplexe Grössen und Darstellungtheorie}, Math. Z. 30 (1929), 641-692.
+\bibitem{b11} R. Brauer and E. Noether. \textbf{Über minimale Zerfällungskörper irreduzibler Darstellungen}, Sitz. Preuss. Akad. Wiss. Berlin (1927), 221-228.
+\bibitem{b12} R.J. McEliece. \textbf{The Algebraic Theory of Convolutional Codes}, The Handbook of Coding Theory, EUA (1983), 1:1065-1138.
+% nueva bibliografía, para algunas referencias de fechas
+\bibitem{b13} Stewart, Ian. \textbf{De aquí al infinito -- Las matemáticas de hoy.} España: Editorial Crítica (1998).
+\bibitem{b14} Bell, E.T. \textbf{Los grandes matemáticos.} Argentina: Editorial Losada (1948).
+\bibitem{herr} Gutiérrez, William. \textbf{Introducción a \TeX\ y a \LaTeXe.} Guatemala: Facultad de Ingeniería, USAC (2010).
+\end{thebibliography}
+
+\label{fin}
+\end{document} 
