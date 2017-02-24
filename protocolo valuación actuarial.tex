@@ -1,6 +1,4 @@
-%% Correcciones y sugerencias por William Gutiérrez
-%% para no perder la costumbre :-)
-%% Debe incluir al Dr. Sergio López, asesor principal
+
 \documentclass[12pt,letterpaper,titlepage]{article}
 \usepackage[spanish]{babel}
 \usepackage[utf8x]{inputenc}
@@ -19,6 +17,7 @@
     \thm@headpunct{:}%
   }
 
+\usepackage{apacite}
 \makeatother
 \usepackage{hyperref}
 \hypersetup{% bookmarksnumbered,
@@ -35,7 +34,7 @@
 \renewcommand{\spanishrefname}{Bibliografía preliminar}
 
 \title{Protocolo de trabajo de graduación:\\
-La Valuación de los Planes de Pensiones Ocupacionales o Privados}
+La Valuación Actuarial de los Planes de Pensiones Ocupacionales o Privados}
 \author{Br. Emilene Analí Romero Marroquín\\Carné: 2012-13113\\Dirección: 7a. Ave. "A" 9-29 Zona 11,\\Mixco, Guatemala\\Teléfono: 3335\,4941\\Asesores: Dr. Roberto Molina Cruz\\Licenciatura en Matemática Aplicada\\Universidad de San Carlos de Guatemala\\Número de páginas: \pageref{fin}}
 \date{Guatemala, \today}
 
@@ -47,13 +46,12 @@ La Valuación de los Planes de Pensiones Ocupacionales o Privados}
 %\end{titlepage}\newpage
 \setcounter{page}{2}
 \tableofcontents
-
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \newpage
-
+\nocite{*}
 \section{Introducción}
 
-%Los planes de pensiones surgen de la necesidad del sector laboral
+
 
 
 
@@ -109,14 +107,13 @@ Los planes de pensiones ocupacionales, son beneficios que el sector laboral priv
 La metodología a utilizar en el desarrollo de este trabajo de graduación, se llevará a cabo de la siguiente manera:
 
 \begin{itemize}
-	\item Se consultará, en primera instancia, diversos documentos de acceso público de la Organización Internacional del Trabajo, incluídas en la bibliografía preliminar,  en los cuales establecen las normas y convenios para la estructuración de los distintos planes de pensiones.
+	\item Se consultará, en primera instancia, diversos documentos de acceso público de la Organización Internacional del Trabajo, incluídas en la bibliografía preliminar,  en los cuales establecen las normas y convenios para la estructuración de los distintos planes de pensiones, además de una variedad de textos sobre matemática actuarial.
 	
-	\item 
-
+	\item Se hará uso del \textit{análisis matemático} para evaluar los distintos métodos de evaluación y poder de esta manera determinar su utilidad.
+	 
+	\item Se utilizará el \textit{método analítico} para determinar las ventajas y desventajas de los métodos de valuación de la situación financiera de los planes ocupacionales.
 	
-	\item 
-	
-	\item 	
+	\item Por último se hará una compilación de los resultados y de eta manera concluir que es lo más recomendable para los planes ocupacionales, en cuanto al análisis de su situación financiera.
 \end{itemize}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
@@ -172,13 +169,16 @@ El índice preliminar del trabajo de graduación es el siguiente
 &\text{3.1. EL FLUJO DE EFECTIVO}\\
 &\text{3.2. EL FINANCIAMIENTO DE SU RESERVA MATEMÁTICA }\\
 &\text{4. APLICACIÓN DE LOS MÉTODOS DE VALUACIÓN EN LOS PLANES DE PENSIONES}\\
+&\text{RECOMENDACIONES}
+&\text{CONCLUSIONES}
 &\text{BIBLIOGRAFÍA} % publicaciones que no se citaron pero sirvieron para la elaboración del trabajo
 \end{align*}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 \newpage
 
-%\section{Bibliografía preliminar}
+\section{Bibliografía preliminar}
+\bibliographystyle{apacite}
 \bibliography{bibliotesis}
 \label{fin}
 \end{document} 

@@ -8,3 +8,5 @@
 \contentsline {section}{\numberline {5}Metodolog\IeC {\'\i }a}{7}{section.5}
 \contentsline {section}{\numberline {6}Cronograma}{8}{section.6}
 \contentsline {section}{\numberline {7}\IeC {\'I}ndice preliminar}{9}{section.7}
+\contentsline {section}{\numberline {8}Bibliograf\IeC {\'\i }a preliminar}{10}{section.8}
+\contentsline {section}{Referencias}{10}{section*.2}
