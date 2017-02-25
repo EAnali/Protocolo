@@ -1,3 +1,212 @@
 \begin{thebibliography}{}
 
+\bibitem [\protect \citeauthoryear {%
+Cichon%
+, Hagemejer%
+\BCBL {}\ \BBA {} Scholtz%
+}{%
+Cichon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+ILOqmsps}
+\APACinsertmetastar {%
+ILOqmsps}%
+\begin{APACrefauthors}%
+Cichon, M.%
+, Hagemejer, K.%
+\BCBL {}\ \BBA {} Scholtz, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {Social Budgeting} {Social budgeting}.
+\newblock
+\APACaddressPublisher{}{Brookings Inst Pr}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.amazon.com/Social-Budgeting-Michael-Cichon/dp/9221108619%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D9221108619}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cichon%
+\ \protect \BOthers {.}}{%
+Cichon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+ILOfsp}
+\APACinsertmetastar {%
+ILOfsp}%
+\begin{APACrefauthors}%
+Cichon, M.%
+, Scholz, W.%
+, van~de Meerendonk, A.%
+, Hagemejer, K.%
+, Bertranou, F.%
+\BCBL {}\ \BBA {} Plamondon, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2005}.
+\newblock
+\APACrefbtitle {Financing Social Protection (Quantitative Methods in Social
+  Protection)} {Financing social protection (quantitative methods in social
+  protection)}.
+\newblock
+\APACaddressPublisher{}{International Labor Office}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.amazon.com/Financing-Social-Protection-Quantitative-Methods/dp/922115122003FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D9221151220036383}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Galé%
+}{%
+Galé%
+}{%
+{\protect \APACyear {1978}}%
+}]{%
+gale}
+\APACinsertmetastar {%
+gale}%
+\begin{APACrefauthors}%
+Galé, J\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1978}.
+\newblock
+\APACrefbtitle {Elementos de Cálculo Actuarial} {Elementos de cálculo
+  actuarial}\ (\PrintOrdinal{Quinta Edición}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Ediciones Macchi}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Introduction to Social Security}}{%
+\APACcitebtitle {Introduction to Social Security}}{%
+{\protect \APACyear {1984}}%
+}]{%
+OITintross}
+\APACinsertmetastar {%
+OITintross}%
+\APACrefbtitle {Introduction to Social Security} {Introduction to social
+  security}.
+\newblock
+\APACrefYear{1984}.
+\newblock
+\APACaddressPublisher{}{International Labour Org}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.amazon.com/Introduction-to-Social-Security/dp/9221036383%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D9221036383}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Iyer%
+}{%
+Iyer%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+OITamssp}
+\APACinsertmetastar {%
+OITamssp}%
+\begin{APACrefauthors}%
+Iyer, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1999}.
+\newblock
+\APACrefbtitle {Actuarial Mathematics of Social Security Pensions} {Actuarial
+  mathematics of social security pensions}.
+\newblock
+\APACaddressPublisher{}{International Labour Org}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.amazon.com/Actuarial-Mathematics-Social-Security-Pensions/dp/922110866X%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D922110866X}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Newton L.~Bowers%
+}{%
+Newton L.~Bowers%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+bowers}
+\APACinsertmetastar {%
+bowers}%
+\begin{APACrefauthors}%
+Newton L.~Bowers, H\BPBI U\BPBI G\BPBI J\BPBI C\BPBI H\BPBI D\BPBI A\BPBI
+  J\BPBI y\BPBI C\BPBI J\BPBI N., JR.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1997}.
+\newblock
+\APACrefbtitle {Actuarial Mathematics} {Actuarial mathematics}\
+  (\PrintOrdinal{Segunda Edicion}\ \BEd; D.~Anderson, \BED{}).
+\newblock
+\APACaddressPublisher{}{The Society of Acturies}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Plamondon%
+\ \protect \BOthers {.}}{%
+Plamondon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+OITapss}
+\APACinsertmetastar {%
+OITapss}%
+\begin{APACrefauthors}%
+Plamondon, P.%
+, Drouin, A.%
+, Binet, G.%
+, nd Warren R. McGillivrayKrzysztof~Hagemejer, M\BPBI C.%
+, Bedard, M.%
+\BCBL {}\ \BBA {} rre Plamondon, H\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {Actuarial Practice ing ocial SecurityProtectitative Methods in
+  Social Protection)} {Actuarial practice ing ocial securityprotectitative
+  methods in social protection)}.
+\newblock
+\APACaddressPublisher{}{International Labor Office}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Promislow%
+}{%
+Promislow%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+wiley}
+\APACinsertmetastar {%
+wiley}%
+\begin{APACrefauthors}%
+Promislow, S\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {Fundamentals of Actuarial Mathematics} {Fundamentals of
+  actuarial mathematics}\ (\PrintOrdinal{Tercera Edición}\ \BEd).
+\newblock
+\APACaddressPublisher{}{John Wiley and Sons Ltd.}
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
