@@ -67,7 +67,7 @@ Too many commas in name 1 of "Newton L. Bowers, JR, Hans U. Gerber, James C. Hic
 while executing---line 5079 of file apacite.bst
 You've used 8 entries,
             6951 wiz_defined-function locations,
-            1318 strings with 12708 characters,
+            1317 strings with 12695 characters,
 and the built_in function-call counts, 14080 in all, are:
 = -- 1774
 > -- 115

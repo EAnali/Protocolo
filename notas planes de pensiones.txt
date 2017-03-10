@@ -1,0 +1,25 @@
+VALUACION DE PLANES DE PENSIONES (capitulo 11.5 bowers)
+
+¿qué es un plan de pensiones? revisar protocolo. A los pagos realizados para cubrir los beneficios, se denominan contribuciones. un plan de retiro: ofrece pensiones a los contribuyentes del mismo, ya sea por vejez o incapacidad. en caso de despido o renuncia, el contribuyente puede solicitar un reembolso de sus contribuciones acumuladas o bien solicitar una pension diferida. en caso de fallecimiento del contribuyente, previo a las situaciones antes mencionadas, el beneficiario se hace acreedor de una suma global de las contribuciones acumuladas, o un ingreso, comunmente otorgado de forma mensual.
+
+
+Régimenes de pensiones
+*régimen de beneficio definido
+*régimen de contribución definida
+
+régimen de beneficio definido: es aquel que define el monto de indemnización mediante una fórmula, independiente del monto de contribución del contribuyente a lo lardo de su carrera. 
+
+régimen de Contribución definida:  es aquel en el que el monto total de las contribuciones se han ido acumulando individualmente, incluyendo la acumulación de los intereses, ya que para el cálculo de una indemnización, esta se calcula en base a dicha cantidad acumulada individualmente.
+
+FLUJO DE EFECTIVO
+
+
+RESERVA MATEMATICA (es un pasivo del plan)
+se calcula mediante el equilibrio entre sus obligaciones e ingresos esperados.
+
+
+
+equilibrio financiero no implica equilibrio actuarial
+
+
+
