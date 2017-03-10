@@ -7,7 +7,21 @@
 \usepackage{latexsym}
 \usepackage{cancel}
 \usepackage{mathrsfs,amsfonts,mathptmx}
-\usepackage[text={5.8in,8.6in},centering]{geometry}
+
+% diseño de página
+\setlength{\parindent}{5ex}				% sangría
+\usepackage[inner=1.6in,outer=1in,top=1in,bottom=1in]{geometry}
+\usepackage{setspace}					% interlineado
+
+\usepackage{color,longtable,pdfpages}
+\usepackage{graphicx,hyperref}
+\usepackage{url,breakurl}
+\usepackage{skak}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{4} 
+\setlength\LTleft{0pt} \setlength\LTright{0pt} % parámetros para tablas largas
+
+%\usepackage[text={5.8in,8.6in},centering]{geometry}
 \renewcommand{\spanishoperators}{sen spec d}
 \renewcommand{\baselinestretch}{1.6}
 \makeatletter \decimalpoint
@@ -33,7 +47,7 @@
 \renewcommand{\spanishrefname}{Bibliografía preliminar}
 
 \title{Protocolo de trabajo de graduación:\\
-La Valuación Actuarial de los Planes de Pensiones Ocupacionales o Privados}
+La Valuación Actuarial de los Planes de Pensiones Ocupacionales}
 \author{Br. Emilene Analí Romero Marroquín\\Carné: 2012-13113\\Dirección: 7a. Ave. "A" 9-29 Zona 11,\\Mixco, Guatemala\\Teléfono: 3335\,4941\\Asesores: Dr. Roberto Molina Cruz\\Licenciatura en Matemática Aplicada\\Universidad de San Carlos de Guatemala\\Número de páginas: \pageref{fin}}
 \date{Guatemala, \today}
 
@@ -72,17 +86,15 @@ El estudio de los aspectos matemáticos de ambos métodos presentados mediante e
 
 \section{Marco teórico}
 
-Históricamente, se promovió la creación de una institución que velara por el trabajador, en caso de este encontrarse en una situación desventajosa para poder proveerse de un modo para obtener ingresos, siendo esta la seguridad social. Dicho sistema tiene sus principios luego de la revolución industrial, 
+Las valuaciones actuariales de los planes de pensiones pueden varían de institución  a institución, sin embargo existen documentos reguladores, proporcionados por la Oficina Internacional del Trabajo (OIT) los cuales aconsejan el método indicado para hacerlo según sea el enfoque de los mismos. Sin embargo, previo al desarrollo de dichos métodos es necesario comprender la importancia y el origen de los planes de pensiones. 
+
+El origen de dichos planes de pensiones se remonta en primera instancia a la creación de protección al trabajador asalariado. Durante el siglo XIX con el surgimiento de la Revolución Industrial, en los países conocidos como desarrollados 
+
+Históricamente, se promovió la creación de una institución que velara por el trabajador, en caso de este encontrarse en una situación desventajosa para poder proveerse de un modo para obtener ingresos, siendo esta la seguridad social, sin embargo con el tiempo se fueron creando instituciones privadas las cuales brindan cierta protección a un grupo determinado de trabajadores, comunmente clasificados por profesión, así como también empresas privadas quienes proveeron la misma protección a sus trabajadores,  siendo esta protección denominada como plan de pensiones.
 
 Los planes de pensiones ocupacionales, son beneficios que las empresas ofrecen a sus trabajadores como un complemento de la seguridad social del país. Dichos planes, son evaluados períodicamente determinando así la situación financiera del mismo, para posteriormente determinar el valor de la prima en función de dicho período. 
 
-Entre los beneficios que pueden hallarse enlistados en los planes de pensiones ocupacionales se tienen:
-\begin{itemize}
-	\item Invalidez
-	\item Vejez
-	\item Sobrevivencia
-\end{itemize}
-
+Entre los beneficios que pueden hallarse enlistados en los planes de pensiones ocupacionales se tienen
 
 
 %Los \textit{métodos de valuación actuarial} para determinar la situación financiera de un plan de pensiones son los siguientes: \textbf{}
@@ -161,35 +173,39 @@ Se tabulan las actividades previstas en el desarrollo del trabajo de graduación
 \newpage
 
 \section{Índice preliminar}
-El índice preliminar del trabajo de graduación es el siguiente
+El índice preliminar del trabajo de graduación es el siguiente:
 \begin{align*}
-&\text{ÍNDICE DE ILUSTRACIONES}\\
-&\text{LISTADO DE SÍMBOLOS}\\
-&\text{GLOSARIO}\\
-&\text{INTRODUCCIÓN}\\
-&\text{1. PLANES DE PENSIONES}\\
-&\text{1.1. ASPECTO HISTÓRICO }\\
-&\text{1.2. CUIDADO MÉDICO }\\
-&\text{1.2.1. BENEFICIOS DE VEJEZ}\\
-&\text{1.2.2. SUPERVIVENCIA}\\
-&\text{1.2.3. INVALIDEZ }\\
-&\text{1.3. RÉGIMEN DE LOS PLANES DE PENSIONES}\\
-&\text{1.3.1. RÉGIMEN DE BEDEFICIO DEFINIDO}\\
-&\text{1.3.2. RÉGIMEN DE CONTRIBUCIÓN DEFINIDA}\\
-&\text{1.3.3. RÉGIMEN HIPOTÉTICO DE COTIZACIÓN DEFINIDA}\\
-&\text{2. MATEMÁTICA ACTUARIAL DE LOS PLANES DE PENSIONES}\\
-&\text{2.1. FUNCIONES BÁSICAS PARA EL FINANCIAMIENTO DE LOS PLANES DE PENSIONES}\\
-&\text{2.2. SISTEMAS DE FINANCIAMIENTO DE LOS PLANES DE PENSIONES}\\
-&\text{2.2.1. SISTEMA DE REPARTO}\\
-&\text{2.2.2. SISTEMA DE PRIMA ESCALONADA}\\
-&\text{2.2.3. SISTEMA DE PRIMA MEDIA GENERAL}\\
-&\text{3. MÉTODOS DE VALUACIÓN}\\
-&\text{3.1. EL FLUJO DE EFECTIVO}\\
-&\text{3.2. EL FINANCIAMIENTO DE SU RESERVA MATEMÁTICA }\\
-&\text{4. APLICACIÓN DE LOS MÉTODOS DE VALUACIÓN EN LOS PLANES DE PENSIONES}\\
-&\text{RECOMENDACIONES}\\
-&\text{CONCLUSIONES}\\
-&\text{BIBLIOGRAFÍA} 
+&\text{Índice de Ilustraciones}\\
+&\text{Listado de Símbolos}\\
+&\text{Glosario}\\
+&\text{Introducción}\\
+&\text{1. Planes de Pensiones}\\
+&\qquad\text{1.1. Aspecto Histórico }\\
+&\qquad\text{1.2. Beneficios del Contribuyente }\\
+&\qquad\qquad\text{1.2.1. Beneficio de Vejez}\\
+&\qquad\qquad\text{1.2.2. Beneficio de Supervivencia}\\
+&\qquad\qquad\text{1.2.3. Beneficio de Invalidez}\\
+&\qquad\text{1.3. Regímenes de los Planes de Pensiones}\\
+&\qquad\qquad\text{1.3.1. Régimen de Prestación Definida}\\
+&\qquad\qquad\text{1.3.2. Régimen de Cotización Definida}\\
+&\qquad\qquad\text{1.3.3. Régimen Mixto}\\
+&\text{2. Matemática Actuarial de los Planes de Pensiones}\\
+&\qquad\text{2.1. Funciones Básicas para el Financiamiento de los Planes de Pensiones}\\
+&\qquad\text{2.2. Sistemas de Financiamiento de los Planes de Pensiones}\\
+&\qquad\qquad\text{2.2.1. Sistema de Reparto}\\
+&\qquad\qquad\text{2.2.2. Sistema de Prima Escalonada}\\
+&\qquad\qquad\text{2.2.3. Sistema de Prima Media General}\\
+\end{align*}
+
+\newpage
+\begin{align*}
+&\text{3. Métodos de Valuación Actuarial}\\
+&\qquad\text{3.1. El Análisis del Flujo de Efectivo}\\
+&\qquad\text{3.2. El Financiamiento de su Reserva Matemática}\\
+&\text{4. Aplicación de los Métodos de Valuación Actuarial en los Planes de Pensiones Ocupacionales}\\
+&\text{Recomendaciones}\\
+&\text{Conclusiones}\\
+&\text{Bibliografía} 
 \end{align*}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
